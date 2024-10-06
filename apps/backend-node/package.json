@@ -1,0 +1,16 @@
+{
+  "name": "backend-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/index.ts --platform=node --bundle --outdir=dist"
+  },
+  "dependencies": {
+    "@repo/common": "*",
+    "esbuild": "^0.24.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
